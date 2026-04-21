@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-df = pd.read_csv(r'C:\Users\Sania\Desktop\OLA_Cleaned.csv')
+df = pd.read_csv('OLA_Cleaned.csv')
 
 st.set_page_config(page_title="OLA Ride Insights", layout="wide")
 st.title('🚗 OLA Ride Insights Dashboard')
